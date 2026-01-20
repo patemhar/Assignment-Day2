@@ -1,8 +1,7 @@
-import React from 'react'
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div className='flex justify-center w-full h-full'>Dashboard</div>
   )
 }
 

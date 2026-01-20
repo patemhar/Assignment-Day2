@@ -15,7 +15,7 @@ export const products: productInt[] = [
     "price": 109.95,
     "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
     "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
-    "stock": 55
+    "stock": 9
   },
   {
     "id": 2,
@@ -31,7 +31,7 @@ export const products: productInt[] = [
     "price": 55.99,
     "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
     "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png",
-    "stock": 55
+    "stock": 0
   },
   {
     "id": 4,
@@ -39,7 +39,7 @@ export const products: productInt[] = [
     "price": 15.99,
     "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
     "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_t.png",
-    "stock": 55
+    "stock": 7
   },
   {
     "id": 5,
@@ -55,7 +55,7 @@ export const products: productInt[] = [
     "price": 168,
     "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
     "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png",
-    "stock": 55
+    "stock": 9
   },
   {
     "id": 7,
@@ -87,6 +87,6 @@ export const products: productInt[] = [
     "price": 109,
     "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
     "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png",
-    "stock": 55
+    "stock":5
   }
 ];
