@@ -100,7 +100,7 @@ const Home = () => {
           onClick={() => setAddProductDialog(!addProductDialogOpen)}
           className="bg-white p-1 rounded-lg"  
         >
-          Add Skill
+          Add Product
         </button>
       </div>
       
