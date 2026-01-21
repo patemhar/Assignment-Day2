@@ -3,9 +3,8 @@
 - A minimal e-commerce application for browsing products, with Search and filtering.
 
 Features
-- Product listing and search
-- Cart management
-- Checkout flow (basic)
+- Product listing 
+- Search and Filtering
 
 Quickstart
 - Prerequisites: Node.js and npm
