@@ -1,4 +1,5 @@
 import type { productInt } from '../constants/products'
+import clsx from 'clsx';
 
 function renderStockMessage(stock:number) {
   if (stock < 1) return <p className='text-sm text-red-500'>Out Of Stock</p>;
@@ -10,16 +11,16 @@ export default function Card(product:productInt) {
 
   return (
     <div className='max-w-md h-130 bg-white border rounded-lg mex-h-100 border-gray-200 shadow hover:shadow-lg transition-shadow duration-300'>
-        <div className='flex justify-center'>   
+        <div className='flex justify-center mt-6'>   
             {product.image && (
                 <img
-                    className='rounded-t-lg h-45 object-cover'
+                    className='rounded-lg h-45 object-cover'
                     src={product.image}
                     alt={product.title}
                 />
             )}
         </div>
-        <div className='p-4 h-85 relative flex flex-col flex-1'>
+        <div className='p-4 h-79 relative flex flex-col flex-1'>
             
             <h2 className='text-xl font-bold mb-2 line-clamp-1'>
                 {product.title}
@@ -34,7 +35,7 @@ export default function Card(product:productInt) {
             </p>
             
             {product.price > 100 && (
-                <p className='text-amber-400 text-sm border-amber-400 p-1 border w-fit rounded-2xl'>Premium</p>
+                <p className={clsx('text-amber-400 text-sm border-amber-400 p-1 border w-fit rounded-2xl', product.stock < 0 ? "disabled" : "")}>Premium</p>
             )}
             
             <p className='text-sm my-1'>Stock: {product.stock}</p>
