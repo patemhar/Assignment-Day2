@@ -63,6 +63,13 @@ const Home = () => {
     }
   })
 
+  function handleDelete(id: number) {
+    if(!id) {
+      return;
+    }
+    setProductsList(products.filter((p) => p.id !== id));
+  }
+
   return (
     <div className="p-4 flex flex-col justify-center">
       <input
@@ -183,7 +190,7 @@ const Home = () => {
       <div className="grid sm:grid-cols-3 gap-4 p-5">
         {productsList.map((product) => {
           return (
-            <Card key={product.id} {...product}/>
+            <Card key={product.id} {...product} onDelete={handleDelete}/>
           )
         })}
       </div>
